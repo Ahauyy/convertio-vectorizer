@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "convertio-vectorizer"
+version = "1.0.0"
+description = "High-fidelity raster-to-SVG vectorizer reverse-engineered from Convertio with seamless Windows Explorer right-click integration"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Axell Satria Elarie", email = "axellsatria1@gmail.com" }
+]
+keywords = [
+    "convertio",
+    "png-to-svg",
+    "vectorizer",
+    "potrace",
+    "svg",
+    "windows-context-menu"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+]
+dependencies = [
+    "Pillow>=10.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Ahauyy/convertio-vectorizer"
+Repository = "https://github.com/Ahauyy/convertio-vectorizer"
+Issues = "https://github.com/Ahauyy/convertio-vectorizer/issues"
